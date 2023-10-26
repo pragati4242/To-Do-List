@@ -1,68 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/f30fac2c61.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Catamaran:wght@200&family=Courgette&family=Edu+TAS+Beginner:wght@700&family=Lato:wght@300;900&family=Mukta:wght@700&family=Mulish:wght@300&family=Open+Sans&family=PT+Sans:ital,wght@1,700&family=Poppins:wght@300&family=Raleway:wght@100&family=Roboto+Condensed:wght@700&family=Roboto+Slab&family=Roboto:wght@300;400&family=Source+Sans+Pro:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="todo1.css">
+</head>
+<body>
+   <div class="container">
+    <h1>ToDo App</h1>
+    <div class="inputs">
+        <input type="text" placeholder="Enter Your Task" id="inp">
+        <button onclick="Add()">Add</button>
+    </div>
+    <div class="text">
 
+    </div>
+   </div>
 
-<!DOCTYPE html> 
-<html lang="en"> 
-
-<head> 
-	<meta charset="UTF-8"> 
-	<meta name="viewport" content= 
-		"width=device-width, initial-scale=1.0"> 
-
-	<link rel="stylesheet" href= 
-"https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-		integrity= 
-"sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
-		crossorigin="anonymous"> 
-
-	<script src="app.js"></script> 
-
-	<title>To Do List</title> 
-</head> 
-
-<body> 
-	<header class="bg-success text-white p-5"> 
-		<div class="container"> 
-			<div class="row"> 
-				<div class="col-lg-12 col-md-12 col-sm-12"> 
-					<font face="Comic sans MS"
-						size="11" color="black"> 
-						<strong>ToDo List</strong> 
-					</font> 
-					
-				</div> 
-			</div> 
-		</div> 
-	</header> 
-
-	<div class="container mt-3"> 
-		<h2>Add Items</h2> 
-
-		<label id="lblsuccess" class="text-success"
-				style="display: none;"> 
-		</label> 
-		
-		<form id="addForm"> 
-			<div class="row"> 
-				<div class="col-lg-7 col-md-7 col-sm-7"> 
-
-					<input type="text" onkeyup= 
-						"toggleButton(this, 'submit')"
-						class="form-control" id="item"> 
-				</div> 
-
-				<div class="col-lg-5 col-md-5 col-sm-5"> 
-				<input type="submit" class="btn btn-dark"
-						id="submit" value="Submit" disabled> 
-				</div> 
-			</div> 
-		</form> 
-
-		<h3 class="mt-4">Tasks</h3> 
-
-		<form id="addForm"> 
-			<ul class="list-group" id="items"></ul> 
-		</form> 
-	</div> 
-</body> 
-
-</html> 
+    <script src="app.js"></script>
+</body>
+</html>
